@@ -24,7 +24,8 @@
 
 [Qwen/Qwen2.5-72B-Instruct技术报告](https://arxiv.org/pdf/2412.15115)
 
-![Table 6](image.png)
+<img width="636" height="346" alt="image" src="https://github.com/user-attachments/assets/363e8947-175c-4152-b446-f4085fe85b53" />
+
 
 
 ---
