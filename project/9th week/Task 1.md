@@ -602,7 +602,7 @@ python scripts/generate_siliconflow_lcb.py \
   --n 1 \
   --temperature 0.2 \
   --top_p 0.95 \
-  --max_tokens 2000 \
+  --max_tokens 4096 \
   --sleep 1.0 \
   --output custom_outputs/qwen25_72b_release_v4_n1.json
 ```
