@@ -12,26 +12,6 @@
 - 需要展示技术报告中的指标与性能结果
 - 需要展示自己的实验复现结果
 
-### 示例模型
-
-选择模型：
-
-**DeepSeek-R1-Distill-Qwen-7B**
-
-模型链接：
-
-<https://console.volcengine.com/ark/region:ark+cn-beijing/model/detail?Id=deepseek-r1-distill-qwen-7b>
-
-### 参考技术报告
-
-论文标题：
-
-**DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning**
-
-论文链接：
-
-<https://arxiv.org/pdf/2501.12948>
-
 ### 汇报内容
 
 需要包括以下内容：
@@ -54,13 +34,12 @@
 
 ### 汇报要求
 
-- 汇报形式：PPT
 - 汇报时间：不超过 **10 分钟**
 - 汇报对象：一篇体育视频理解相关的大模型评估论文
 
-### PPT 内容要求
+### 汇报要求
 
-#### 第 1 页：论文基本信息
+#### 论文基本信息
 
 需要包括：
 
@@ -72,8 +51,6 @@
 - 论文链接（如有）
 
 #### 后续内容组织
-
-PPT 后续内容应包括以下部分：
 
 1. **一句话总结**
    - 用一句话概括论文的核心贡献或主要结论。
@@ -116,19 +93,3 @@ PPT 后续内容应包括以下部分：
 - 是否可以构建一个更贴近真实比赛分析需求的 benchmark？
 
 ---
-
-## 提交内容建议
-
-最终提交材料可以包括：
-
-```text
-project/
-├── benchmark/
-│   ├── README.md
-│   ├── run_eval.py
-│   ├── results.json
-│   └── analysis.md
-├── paper_reading/
-│   ├── paper_summary.md
-│   └── presentation.pptx
-└── README.md
