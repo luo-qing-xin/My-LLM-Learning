@@ -584,6 +584,7 @@ python -m lcb_runner.evaluation.compute_scores \
 ```bash
 cd ~/LiveCodeBench
 source .venv/bin/activate
+export HF_ENDPOINT="https://hf-mirror.com"
 ```
 
 配置 API：
