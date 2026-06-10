@@ -74,6 +74,7 @@ The future of artificial intelligence is
 
 ---
 
+
 ### 3. 阅读资料：《大语言模型》
 
 **参考资料：**
@@ -91,7 +92,6 @@ The future of artificial intelligence is
 * 大模型技术基础；
 * GPT 和 DeepSeek 模型介绍。
 
----
 
 #### 重点关注
 
@@ -105,8 +105,6 @@ The future of artificial intelligence is
 6. DeepSeek 模型有什么基本特点；
 7. 大语言模型的核心能力主要体现在哪些方面；
 8. 当前自己对大模型还有哪些不理解的地方。
-
----
 
 #### 产出要求
 
