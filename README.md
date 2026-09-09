@@ -1,73 +1,57 @@
-# 📚 My-LLM-Learning
----
-这是一个用于记录我学习大语言模型（Large Language Models, LLMs）的个人仓库。
- 
-我会在这里持续整理自己在学习 LLM 过程中的笔记、代码实践、学习资源、踩坑记录和阶段性总结。这个仓库既是我的学习档案，也希望能逐渐沉淀成一份对后来者有参考价值的学习路线。
+<div align="center">
+  <img src="./assets/images/title.png" width="720">
+</div>
 
-目前仓库还在持续完善中，内容会随着我的学习进度不断更新。
+# LLM 自学路线与实践记录
 
----
-## 📁 仓库结构
+> From LLM fundamentals to hands-on projects.
 
-目前仓库结构会根据学习进度持续调整，当前结构如下：
+[![License](https://img.shields.io/github/license/luo-qing-xin/my-LLM-learning)](./LICENSE)
+[![Stars](https://img.shields.io/github/stars/luo-qing-xin/my-LLM-learning)](https://github.com/luo-qing-xin/my-LLM-learning)
+[![Last Commit](https://img.shields.io/github/last-commit/luo-qing-xin/my-LLM-learning)](https://github.com/luo-qing-xin/my-LLM-learning)
 
-```text
-my-LLM-learning/
-├── Projects/              # LLM 相关代码实践与项目记录
-├── README.md              # 仓库说明文档
-├── LICENSE                # 开源协议
-├── .gitignore             # Git 忽略规则
-└── 命名规范.md             # 文件、分支、提交等命名规范
-```
+## 这个仓库是什么？
 
-后续可能会继续补充：
+这是一个面向 LLM 初学者的自学仓库，用来记录我从基础概念、经典论文、API 调用、Prompt Engineering、GPT-2 实验、模型评测到实际项目开发的学习过程。
 
-```text
-my-LLM-learning/
-├── Notes/                 # 学习笔记
-├── Resources/             # 学习资源整理
-├── Troubleshooting/       # 踩坑记录
-└── Roadmap.md             # 学习路线与阶段计划
-```
+它既是我的学习档案，也希望逐渐沉淀成一份可以复用的 LLM 学习路线。
 
----
+## 学习路线
 
-## 📝 内容规划
+| 阶段 | 主题 | 产出 |
+|---|---|---|
+| 01 | LLM 基础概念 | 技术路线图、核心模块总结 |
+| 02 | Transformer 与 Attention | 论文精读、代码复现 |
+| 03 | API 调用与参数实验 | 参数案例、实验记录 |
+| 04 | Prompt 分类实验 | Iris 分类、准确率对比 |
+| 05 | GPT-2 小模型实验 | GPT-2 分类能力分析 |
+| 06 | 模型评测 | LiveCodeBench / Qwen API 评测 |
+| 07 | 自选探索项目 | 数据集、模型、实验报告 |
 
-这个仓库后续会重点整理以下几类内容：
+## 仓库导航
 
-| 类型 | 内容说明 |
-|---|---|
-| 学习笔记 | 对 LLM 核心概念、论文、课程内容的整理 |
-| 代码实践 | 与 Transformer、微调、RAG、Agent 等相关的代码项目 |
-| 学习资源 | 课程、论文、博客、工具、开源项目等资源汇总 |
-| 踩坑记录 | 环境配置、依赖安装、API 使用、项目开发中的问题记录 |
-| 学习心得 | 阶段性总结、学习方法、路线调整和个人理解 |
+| 模块 | 说明 | 入口 |
+|---|---|---|
+| Projects | 代码实践与实验项目 | [进入](./Projects) |
+| Notes | 学习笔记与论文精读 | 待补充 |
+| Resources | 课程、论文、博客、工具资源 | 待补充 |
+| Troubleshooting | 环境配置与踩坑记录 | 待补充 |
+| Roadmap | 阶段学习计划 | 待补充 |
 
----
+## 推荐阅读顺序
 
+1. 先阅读 LLM 技术路线图；
+2. 再学习 Transformer 和 Attention；
+3. 然后完成 API 参数实验；
+4. 接着做 Prompt 分类和 GPT-2 对比实验；
+5. 最后尝试模型评测和自选研究问题。
 
+## 更新日志
 
+- 2026-01-29：仓库初始化。
+- 2026-06-10：整理 Projects 命名规范。
+- 2026-06-12：重构 README，改为路线型学习仓库。
 
-## 🔄 更新日志
-- 2026-01-29：仓库初始化，添加 README 与基础配置, 添加了project文档
-- 2026-06-10：添加了命名文档，完善了Projects及其内部文件夹的命名，修改了README
-
----
-## 📄 License
+## License
 
 This project is licensed under the MIT License.
-
-See the [LICENSE](LICENSE) file for more details.
-
----
-
-
-
-
-
-
-
-
-
-
